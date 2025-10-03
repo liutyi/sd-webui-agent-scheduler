@@ -51,7 +51,7 @@ def api_callback(callback_url: str, task_id: str, status: TaskStatus, images: li
 
     return requests.post(
         callback_url,
-        timeout=5,
+        timeout=60,
         data={"task_id": task_id, "status": status.value},
         files=files,
     )
@@ -116,6 +116,7 @@ def regsiter_apis(app: App, task_runner: TaskRunner):
         args = body.dict()
         checkpoint = args.pop("checkpoint", None)
         vae = args.pop("vae", None)
+        args["force_task_id"] = task_id
         callback_url = args.pop("callback_url", None)
         task = task_runner.register_api_task(
             task_id,
@@ -138,6 +139,7 @@ def regsiter_apis(app: App, task_runner: TaskRunner):
         task_id = str(uuid4())
         args = body.dict()
         checkpoint = args.pop("checkpoint", None)
+        args["force_task_id"] = task_id
         vae = args.pop("vae", None)
         callback_url = args.pop("callback_url", None)
         task = task_runner.register_api_task(
