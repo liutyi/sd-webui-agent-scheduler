@@ -14,7 +14,7 @@ from torch import Tensor
 
 from modules import sd_samplers, scripts, shared, sd_vae, images, txt2img, img2img
 from modules.generation_parameters_copypaste import create_override_settings_dict
-from modules.sd_models import CheckpointInfo, get_closet_checkpoint_match
+from modules.sd_models import CheckpointInfo, get_closest_checkpoint_match
 from modules.api.models import (
     StableDiffusionTxt2ImgProcessingAPI,
     StableDiffusionImg2ImgProcessingAPI,
