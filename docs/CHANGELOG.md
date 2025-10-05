@@ -1,5 +1,15 @@
 # Change Logs
 
+## 2025/10/05
+
+Updates
+
+- Fork renamed to sdnext-sheduler
+- fix for preview window goes (partially under the visible screen
+- Readme with current SD.Next version screenshots
+- fix typo get_closest_checkpoint_match (follow the fix in SD.Next)
+
+
 ## 2023/08/10
 
 New features:
