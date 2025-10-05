@@ -21,16 +21,17 @@ Need Manual install in SD.Next since about 20025-10 (no longer built-in)
 ### Using the built-in extension list
 
 1. Open the Extensions tab
-2. Open the "Install From URL" sub-tab
-3. Paste the repo url: https://github.com/liutyi/sd-webui-agent-scheduler.git
+2. Open the "Manual Install" sub-tab
+3. Paste the repo url: https://github.com/liutyi/sdnext-scheduler.git
 4. Click "Install"
 
+![sdnext-scheduler-manual-install](https://github.com/user-attachments/assets/9acf4a20-2ac0-4752-aa3a-f7ad2b6fdab8)
 
 
 ### Manual clone
 
 ```bash
-git clone "https://github.com/liutyi/sd-webui-agent-scheduler.git" extensions/sdnext-scheduler
+git clone "https://github.com/liutyi/sdnext-scheduler.git" extensions/sdnext-scheduler
 ```
 
 (The second argument specifies the name of the folder, you can choose whatever you like).
@@ -40,8 +41,12 @@ git clone "https://github.com/liutyi/sd-webui-agent-scheduler.git" extensions/sd
 
 1️⃣ Input your usual Prompts & Settings. **Enqueue** to send your current prompts, settings, controlnets to **AgentScheduler**.
 
+![sdnext-schedule](https://github.com/user-attachments/assets/4bb9e388-27c4-4342-b7cc-de2d09269400)
 
 2️⃣ **AgentScheduler** Extension Tab.
+
+![sdnext-schedule-task-list](https://github.com/user-attachments/assets/3b71f0e4-21a1-4140-a2b2-b43296a7cc9a)
+
 
 3️⃣ See all queued tasks, current image being generated and tasks' associated information. **Drag and drop** the handle in the begining of each row to reaggrange the generation order.
 
@@ -49,14 +54,23 @@ git clone "https://github.com/liutyi/sd-webui-agent-scheduler.git" extensions/sd
 
 5️⃣ Press ▶️ to prioritize selected task, or to start a single task when queue is paused. **Delete** tasks that you no longer want.
 
-
 6️⃣ Show queue history.
+
+![sdnext-schedule-history](https://github.com/user-attachments/assets/df04356d-fca5-4170-81f9-e7f0d1b8436b)
+
 
 7️⃣ **Filter** task status or search by text.
 
+![sdnext-shedule-search](https://github.com/user-attachments/assets/ac28e155-0091-4a8d-8dff-660201475f26)
+
+
 8️⃣ **Bookmark** task to easier filtering.
 
+![sdnext-schedule-bookmark](https://github.com/user-attachments/assets/d07900d5-2fa3-4410-b9c2-d377f8c75b82)
+
 9️⃣ Double click the task id to **rename** and quickly update basic parameters. Click ↩️ to **Requeue** old task.
+
+![sdnext-schedule-rename](https://github.com/user-attachments/assets/cd079f14-eeed-4dc0-aead-ce1c28a89341) 
 
 🔟 Click on each task to **view** the generation results.
 
