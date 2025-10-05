@@ -13,10 +13,10 @@ This version of AgentScheduler is might be compatible with:
 
 ## Installation
 
-### Using Vlad's WebUI Fork
+### Using with SD.Next
 
-The extension is already included in https://github.com/liutyi/sdnext/tree/ipex
-Need Manual install in SD.Next since about 20025-10 (no longer built-in)
+- The extension is already included in https://github.com/liutyi/sdnext/tree/ipex
+- Need Manual install in SD.Next since about 20025-10 (no longer built-in)
 
 ### Using the built-in extension list
 
