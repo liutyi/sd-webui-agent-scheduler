@@ -219,7 +219,7 @@ The author(s) of this project are not responsible for any damages or legal issue
 
 ---
 
-## Initially crafte by thr people building
+## Initially crafted by the people building
 - [SIPHER//AGI](https://sipheragi.com), 
 - [PROTOGAIA](https://protogaia.com), 
 - [ATHERLABS](https://atherlabs.com/),
