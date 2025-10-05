@@ -219,4 +219,8 @@ The author(s) of this project are not responsible for any damages or legal issue
 
 ---
 
-## Initially CRAFTED BY THE PEOPLE BUILDING [**SIPHER//AGI**](https://sipheragi.com), [**PROTOGAIA**](https://protogaia.com), [**ATHERLABS**](https://atherlabs.com/) & [**SIPHER ODYSSEY**](http://playsipher.com/)
+## Initially crafte by thr people building
+- [SIPHER//AGI](https://sipheragi.com), 
+- [PROTOGAIA](https://protogaia.com), 
+- [ATHERLABS](https://atherlabs.com/),
+- [SIPHER ODYSSEY](http://playsipher.com/)
