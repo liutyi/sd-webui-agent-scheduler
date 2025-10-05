@@ -83,6 +83,7 @@ Right click the `Enqueue` button and select `Queue with all checkpoints` to quic
 
 
 #### Queue with a subset of checkpoints
+![sdnext-schedule-all-checkpoints](https://github.com/user-attachments/assets/4627a936-8faf-4d69-921a-16afbc5a0a81)
 
 
 With the custom checkpoint select enabled (see [Extension Settings](#extension-settings) section below), you can select a folder (or subfolder) to queue task with all checkpoints inside. Eg: Select `anime` will queue `anime\AOM3A1B_oragemixs`, `anime\counterfeit\Counterfeit-V2.5_fp16` and `anime\counterfeit\Counterfeit-V2.5_pruned`.
@@ -202,30 +203,11 @@ Steps to try to find the cause of issues:
 
 Common errors:
 
-**AttributeError: module 'modules.script_callbacks' has no attribute 'on_before_reload'**
-
-If you see this error message in the output console, try update the WebUI to the latest version.
-
-**Update**: The extension is updated to print this warning message instead: **YOUR SD WEBUI IS OUTDATED AND AGENT SCHEDULER WILL NOT WORKING PROPERLY.** You can still able to use the extension but it will not working correctly after a reload.
-
-~~**ReferenceError: submit_enqueue is not defined**~~
-
-~~If you click the `Enqueue` button and nothing happen, and you find above error message in the browser F12 console, follow the steps in [this comment](https://github.com/ArtVentureX/sd-webui-agent-scheduler/issues/4#issuecomment-1575986274).~~
-
-Update: This issue is now fixed.
-
 **TypeError: issubclass() arg 1 must be a class**
 Please update the extension, there's a chance it's already fixed.
 
 **TypeError: Object of type X is not JSON serializable**
 Please update the extension, it should be fixed already. If not, please fire an issue report with the list of installed extensions.
-
-
-## Contributing
-
-We welcome contributions to the Agent Scheduler Extension project! Please feel free to submit issues, bug reports, and feature requests through the GitHub repository.
-
-Please give us a ⭐ if you find this extension helpful!
 
 ## License
 
